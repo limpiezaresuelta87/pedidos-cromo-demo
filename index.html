@@ -590,7 +590,7 @@ document.addEventListener('input',e=>{
 });
 
 /* ---------- PWA: instalación, sin conexión, actualizaciones, sincronización ---------- */
-const APP_VERSION='1.0.1';
+const APP_VERSION='1.0.2';
 let deferredInstall=null, swReg=null, waitingSW=null;
 function showInstall(){ const b=$('#installBtn'); if(b) b.hidden=!deferredInstall; const b2=$('#installBtn2'); if(b2) b2.hidden=!deferredInstall; }
 window.addEventListener('beforeinstallprompt',e=>{ e.preventDefault(); deferredInstall=e; showInstall(); });

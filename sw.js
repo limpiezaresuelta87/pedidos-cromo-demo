@@ -1,5 +1,5 @@
 /* Service worker de Pedidos Cromo / Demo. Subí VERSION en cada actualización. */
-const VERSION = 'v1.0.1';
+const VERSION = 'v1.0.2';
 const CACHE = 'pedidos-cromo-demo-' + VERSION;
 const SHELL = ['./', 'index.html', 'sync.js', 'firebase-config.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/maskable-512.png', 'icons/apple-touch-icon.png'];
